@@ -1,0 +1,31 @@
+{
+  "broker_host": "localhost",
+  "broker_port": 1883,
+  "db_host": "localhost",
+  "db_port": 27017,
+  "db_name": "iot-db",
+  "db_collection": "iot-sensors-data-timestamped",
+  "devices": [
+    {
+      "type": "temperature",
+      "publish_frequency": 5,
+      "publish_topic": "devices/temp",
+      "std_val": 25,
+      "device_count": 2
+    },
+    {
+      "type": "humidity",
+      "publish_frequency": 10,
+      "publish_topic": "devices/hum",
+      "std_val": 40,
+      "device_count": 2
+    },
+    {
+      "type": "co2",
+      "publish_frequency": 5,
+      "publish_topic": "devices/co2",
+      "std_val": 20,
+      "device_count": 1
+    }
+  ]
+}

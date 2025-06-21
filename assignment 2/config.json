@@ -1,0 +1,12 @@
+{
+    "broker_host": "localhost",
+    "broker_port": 1883,
+    "db_host": "localhost",
+    "db_port": 27017,
+    "db_name": "patient-monitoring",
+    "collections": {
+      "device1": "vitals-data",
+      "device2": "room-temp-data"
+    }
+  }
+  
